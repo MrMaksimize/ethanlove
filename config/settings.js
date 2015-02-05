@@ -1,8 +1,8 @@
 module.exports = {
-  title: 'LovePlatform',
-  machineTitle: 'loveplatform',
-  heading: 'I Love LovePlatform Because...',
-  shareUrl: 'http://bit.ly/loveplatform',
+  title: 'EthanLang',
+  machineTitle: 'ethanlanglove',
+  heading: 'I Miss Ethan Because...',
+  shareUrl: 'http://bit.ly/ethanlanglove',
   form: {
     textLabel: 'Message',
     textPlaceHolder: 'Message',
@@ -16,14 +16,14 @@ module.exports = {
     tweeting: false,
   },
   twitter: {
-    shareText: 'I love LovePlatform Because',
-    shareHash: 'loveplatform',
+    shareText: 'I miss Ethan Because',
+    shareHash: '#ethanlang',
   },
   fb: {
     appId: '12345'
   },
   afterSubmit: {
-    popUpSharePrompt: false,
+    popUpSharePrompt: true,
   }
 };
 
