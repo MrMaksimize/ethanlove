@@ -202,13 +202,10 @@ var prLover = {
   showSharerModal: function(response) {
     if (this.config.afterSubmit.popUpSharePrompt === true) {
       var tweetUrl = this.templateTweetLink(response);
-      var fbUrl = this.templateFBLink(response);
       $('.variable-modal-content').html(
         '<a class="btn btn-large" href="'
         + tweetUrl +
-        '">Twitter</a><a target="_blank" class="btn btn-large" href="'
-        + fbUrl +
-        '">Facebook</a>');
+        '">Twitter</a>');
       $('#sharer-modal').modal();
     }
   },

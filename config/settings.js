@@ -13,11 +13,11 @@ module.exports = {
   notes: {
     displayInitial: 9,
     voting: false,
-    tweeting: false,
+    tweeting: true,
   },
   twitter: {
     shareText: 'I miss Ethan Because',
-    shareHash: '#ethanlang',
+    shareHash: 'ethanlanglove',
   },
   fb: {
     appId: '12345'
